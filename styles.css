@@ -1,5 +1,71 @@
 * {
 	box-sizing: border-box;
-	/*outline: solid 1px red;*/
+	outline: solid 1px red;
 }
+
+button, option {
+	text-transform: uppercase;
+}
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	color: #9D232A;
+	font-size: 36px;
+	font-family: Great Vibes;
+
+}
+
+.search-container {
+	background-color: #F1F1F1;
+	height: 175px;
+	padding-top: 74px;
+}
+
+.program-type, .education-level {
+	margin: 10px auto 0;
+	width: 200px;
+	height: 50px;
+
+}
+
+.search-button {
+	width: 100px;
+	height: 30px;
+	background-color: #9D232A; 
+	color: #fff;
+	border: none;
+}
+
+button {
+	display: block;
+	margin: 10px auto;
+}
+
+.logo-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.logo {
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+.color {
+	display: none;
+}
+
 
